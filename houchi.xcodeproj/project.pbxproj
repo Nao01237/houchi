@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35592F3526736DB400B64949 /* shopData.json in Resources */ = {isa = PBXBuildFile; fileRef = 35592F3426736DB400B64949 /* shopData.json */; };
+		35592F3726736DD600B64949 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35592F3626736DD600B64949 /* Game.swift */; };
+		355BF66725555FDB00996A86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355BF66625555FDB00996A86 /* AppDelegate.swift */; };
+		355BF66925555FDB00996A86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355BF66825555FDB00996A86 /* SceneDelegate.swift */; };
+		355BF66B25555FDB00996A86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355BF66A25555FDB00996A86 /* ViewController.swift */; };
+		355BF67325555FDE00996A86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 355BF67125555FDE00996A86 /* LaunchScreen.storyboard */; };
+		355BF67C2567D19D00996A86 /* sjis_sp_setofont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 355BF67B2567D11600996A86 /* sjis_sp_setofont.ttf */; };
+		355BF6AA2598501A00996A86 /* G1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355BF6A92598501A00996A86 /* G1ViewController.swift */; };
+		355BF6AC25996F1000996A86 /* G11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355BF6AB25996F1000996A86 /* G11ViewController.swift */; };
+		355BF6AE2599B97F00996A86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 355BF6AD2599B97F00996A86 /* Main.storyboard */; };
+		358C115025E90A190047D89C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 358C114F25E90A180047D89C /* Assets.xcassets */; };
+		3598FEC7261804EC007926E7 /* kaihouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3598FEC6261804EC007926E7 /* kaihouViewController.swift */; };
+		3598FEF1263C1A86007926E7 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 3598FEF0263C1A86007926E7 /* Realm */; };
+		3598FEF3263C1A86007926E7 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3598FEF2263C1A86007926E7 /* RealmSwift */; };
+		3598FEF526454767007926E7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3598FEF426454767007926E7 /* User.swift */; };
+		3598FEFB2660FD8A007926E7 /* shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3598FEFA2660FD8A007926E7 /* shop.swift */; };
+		3598FEFD266101ED007926E7 /* ShopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3598FEFC266101ED007926E7 /* ShopData.swift */; };
+		35D522E225B1A4180057BB9B /* fukubukuroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D522E125B1A4180057BB9B /* fukubukuroViewController.swift */; };
+		E9749627A147B663F4D3C3E2 /* Pods_houchi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D0835D911FD7EAC0D0271A /* Pods_houchi.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35592F3426736DB400B64949 /* shopData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shopData.json; sourceTree = "<group>"; };
+		35592F3626736DD600B64949 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		355BF66325555FDB00996A86 /* houchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = houchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		355BF66625555FDB00996A86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		355BF66825555FDB00996A86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		355BF66A25555FDB00996A86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		355BF67225555FDE00996A86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		355BF67425555FDE00996A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		355BF67B2567D11600996A86 /* sjis_sp_setofont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sjis_sp_setofont.ttf; sourceTree = "<group>"; };
+		355BF6A92598501A00996A86 /* G1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G1ViewController.swift; sourceTree = "<group>"; };
+		355BF6AB25996F1000996A86 /* G11ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G11ViewController.swift; sourceTree = "<group>"; };
+		355BF6AD2599B97F00996A86 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		358C114F25E90A180047D89C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3598FEC6261804EC007926E7 /* kaihouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kaihouViewController.swift; sourceTree = "<group>"; };
+		3598FEF426454767007926E7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3598FEFA2660FD8A007926E7 /* shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shop.swift; sourceTree = "<group>"; };
+		3598FEFC266101ED007926E7 /* ShopData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopData.swift; sourceTree = "<group>"; };
+		35D522E125B1A4180057BB9B /* fukubukuroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fukubukuroViewController.swift; sourceTree = "<group>"; };
+		92058D8DAAD8BFA6BB05A063 /* Pods-houchi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-houchi.release.xcconfig"; path = "Target Support Files/Pods-houchi/Pods-houchi.release.xcconfig"; sourceTree = "<group>"; };
+		DF81F49EB4A862777C46268E /* Pods-houchi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-houchi.debug.xcconfig"; path = "Target Support Files/Pods-houchi/Pods-houchi.debug.xcconfig"; sourceTree = "<group>"; };
+		F2D0835D911FD7EAC0D0271A /* Pods_houchi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_houchi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		355BF66025555FDB00996A86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3598FEF3263C1A86007926E7 /* RealmSwift in Frameworks */,
+				3598FEF1263C1A86007926E7 /* Realm in Frameworks */,
+				E9749627A147B663F4D3C3E2 /* Pods_houchi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		355BF65A25555FDB00996A86 = {
+			isa = PBXGroup;
+			children = (
+				355BF66525555FDB00996A86 /* houchi */,
+				355BF66425555FDB00996A86 /* Products */,
+				CB9A81E901462ECD2D33D6CC /* Pods */,
+				4C65347CF96ACCD129409D6F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		355BF66425555FDB00996A86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				355BF66325555FDB00996A86 /* houchi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		355BF66525555FDB00996A86 /* houchi */ = {
+			isa = PBXGroup;
+			children = (
+				35592F3426736DB400B64949 /* shopData.json */,
+				358C114F25E90A180047D89C /* Assets.xcassets */,
+				355BF67A2567CC6800996A86 /* font */,
+				355BF66625555FDB00996A86 /* AppDelegate.swift */,
+				355BF66825555FDB00996A86 /* SceneDelegate.swift */,
+				355BF66A25555FDB00996A86 /* ViewController.swift */,
+				355BF6AD2599B97F00996A86 /* Main.storyboard */,
+				355BF67125555FDE00996A86 /* LaunchScreen.storyboard */,
+				355BF67425555FDE00996A86 /* Info.plist */,
+				355BF6A92598501A00996A86 /* G1ViewController.swift */,
+				355BF6AB25996F1000996A86 /* G11ViewController.swift */,
+				35D522E125B1A4180057BB9B /* fukubukuroViewController.swift */,
+				3598FEC6261804EC007926E7 /* kaihouViewController.swift */,
+				3598FEF426454767007926E7 /* User.swift */,
+				3598FEFA2660FD8A007926E7 /* shop.swift */,
+				3598FEFC266101ED007926E7 /* ShopData.swift */,
+				35592F3626736DD600B64949 /* Game.swift */,
+			);
+			path = houchi;
+			sourceTree = "<group>";
+		};
+		355BF67A2567CC6800996A86 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				355BF67B2567D11600996A86 /* sjis_sp_setofont.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		4C65347CF96ACCD129409D6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2D0835D911FD7EAC0D0271A /* Pods_houchi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB9A81E901462ECD2D33D6CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF81F49EB4A862777C46268E /* Pods-houchi.debug.xcconfig */,
+				92058D8DAAD8BFA6BB05A063 /* Pods-houchi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		355BF66225555FDB00996A86 /* houchi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 355BF67725555FDE00996A86 /* Build configuration list for PBXNativeTarget "houchi" */;
+			buildPhases = (
+				A88D6B46DD1268A714CF49FD /* [CP] Check Pods Manifest.lock */,
+				355BF65F25555FDB00996A86 /* Sources */,
+				355BF66025555FDB00996A86 /* Frameworks */,
+				355BF66125555FDB00996A86 /* Resources */,
+				E3C926EEB341A0D615D1636F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = houchi;
+			packageProductDependencies = (
+				3598FEF0263C1A86007926E7 /* Realm */,
+				3598FEF2263C1A86007926E7 /* RealmSwift */,
+			);
+			productName = houchi;
+			productReference = 355BF66325555FDB00996A86 /* houchi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		355BF65B25555FDB00996A86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "橋目　那桜";
+				TargetAttributes = {
+					355BF66225555FDB00996A86 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 355BF65E25555FDB00996A86 /* Build configuration list for PBXProject "houchi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 355BF65A25555FDB00996A86;
+			packageReferences = (
+				3598FEEF263C1A86007926E7 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
+			productRefGroup = 355BF66425555FDB00996A86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				355BF66225555FDB00996A86 /* houchi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		355BF66125555FDB00996A86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35592F3526736DB400B64949 /* shopData.json in Resources */,
+				355BF67C2567D19D00996A86 /* sjis_sp_setofont.ttf in Resources */,
+				355BF67325555FDE00996A86 /* LaunchScreen.storyboard in Resources */,
+				358C115025E90A190047D89C /* Assets.xcassets in Resources */,
+				355BF6AE2599B97F00996A86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A88D6B46DD1268A714CF49FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-houchi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3C926EEB341A0D615D1636F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-houchi/Pods-houchi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-houchi/Pods-houchi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-houchi/Pods-houchi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		355BF65F25555FDB00996A86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3598FEC7261804EC007926E7 /* kaihouViewController.swift in Sources */,
+				3598FEFB2660FD8A007926E7 /* shop.swift in Sources */,
+				355BF6AA2598501A00996A86 /* G1ViewController.swift in Sources */,
+				35D522E225B1A4180057BB9B /* fukubukuroViewController.swift in Sources */,
+				355BF66B25555FDB00996A86 /* ViewController.swift in Sources */,
+				3598FEF526454767007926E7 /* User.swift in Sources */,
+				35592F3726736DD600B64949 /* Game.swift in Sources */,
+				355BF66725555FDB00996A86 /* AppDelegate.swift in Sources */,
+				3598FEFD266101ED007926E7 /* ShopData.swift in Sources */,
+				355BF6AC25996F1000996A86 /* G11ViewController.swift in Sources */,
+				355BF66925555FDB00996A86 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		355BF67125555FDE00996A86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				355BF67225555FDE00996A86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		355BF67525555FDE00996A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		355BF67625555FDE00996A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		355BF67825555FDE00996A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF81F49EB4A862777C46268E /* Pods-houchi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = K3AGVQJQM7;
+				INFOPLIST_FILE = houchi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.naru.fuwafuwaaa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		355BF67925555FDE00996A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92058D8DAAD8BFA6BB05A063 /* Pods-houchi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = K3AGVQJQM7;
+				INFOPLIST_FILE = houchi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.naru.fuwafuwaaa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		355BF65E25555FDB00996A86 /* Build configuration list for PBXProject "houchi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				355BF67525555FDE00996A86 /* Debug */,
+				355BF67625555FDE00996A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		355BF67725555FDE00996A86 /* Build configuration list for PBXNativeTarget "houchi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				355BF67825555FDE00996A86 /* Debug */,
+				355BF67925555FDE00996A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3598FEEF263C1A86007926E7 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.7.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3598FEF0263C1A86007926E7 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3598FEEF263C1A86007926E7 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		3598FEF2263C1A86007926E7 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3598FEEF263C1A86007926E7 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 355BF65B25555FDB00996A86 /* Project object */;
+}
