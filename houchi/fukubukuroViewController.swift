@@ -55,7 +55,7 @@ class fukubukuroViewController: UIViewController {
     @IBAction func ELEVEN() {
         if shozikinn >  15000 {
             shozikinn = shozikinn - 15000
-            kingaku.text = "\(String(shozikinn))円"
+		kingaku.text = "所持金額:  \(String(shozikinn))円"
             performSegue(withIdentifier: "11", sender: nil)
             
         } else {
@@ -85,6 +85,7 @@ class fukubukuroViewController: UIViewController {
     @IBAction func back1() {
         self.dismiss(animated: true, completion: nil)
     }
+	
     @objc func closeMenu(_ sender: UISwipeGestureRecognizer) {
         UIView.animate(withDuration: 0.5, animations: {
             self.fukubukuroButton2.center.x = -40
